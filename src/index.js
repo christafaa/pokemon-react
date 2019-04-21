@@ -3,9 +3,9 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-import './css/App.css';
-import './css/normalize.css';
-import './css/skeleton.css';
+import './assets/css/App.css';
+import './assets/css/normalize.css';
+import './assets/css/skeleton.css';
 
 ReactDOM.render(<App />, document.getElementById('root'));
 

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import questionMark from '../images/question-mark.png'
+import questionMark from '../assets/images/question-mark.png'
 
 export default class Team extends Component {
 
@@ -10,12 +10,16 @@ export default class Team extends Component {
   render() {
     return (
       <div id="team">
-        <img class="question-mark" src={questionMark} />
-        <img class="question-mark" src={questionMark} />
-        <img class="question-mark" src={questionMark} />
-        <img class="question-mark" src={questionMark} />
-        <img class="question-mark" src={questionMark} />
-        <img class="question-mark" src={questionMark} />
+        <div id="row1">
+          <img className="pokemon" src={questionMark}/>
+          <img className="pokemon" src={questionMark}/>
+          <img className="pokemon" src={questionMark}/>
+        </div>
+        <div id="row2">
+          <img className="pokemon" src={questionMark}/>
+          <img className="pokemon" src={questionMark}/>
+          <img className="pokemon" src={questionMark}/>
+        </div>
       </div>
     )
   }

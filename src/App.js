@@ -6,8 +6,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <p>Create Your Pokémon Team</p>
+        <header className="App-header" id="character-team-container">
+          <h3><strong>Create Your Pokémon Team</strong></h3>
           <Character />
           <Team />
         </header>

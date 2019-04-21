@@ -1,0 +1,65 @@
+.App {
+  text-align: center;
+  background-image: linear-gradient(#FC9E4F, #F2F3AE);
+}
+
+.App-header {
+  padding-top: 50px;
+  min-height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #020122;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+#character-team-container {
+  width: 80%;
+  height: 200px;
+  margin: auto;
+}
+
+#character {
+  width: 30%;
+  height: 60%;
+  float: left;
+}
+
+#team {
+  margin-left: 35%;
+  height: 60%;
+}
+
+#ash {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+#row1 {
+  height: 50%;
+  width: 100%;
+  margin: auto;
+}
+
+#row2 {
+  height: 50%;
+  width: 100%;
+  margin: auto;
+}
+
+.pokemon {
+  height: 100%;
+  width: 28%;
+  background-color: pink;
+  margin: 0px 5px 10px 5px;
+  float: left;
+}
+
+.question-mark {
+  max-height: 100%;
+  max-width: 100%;
+}

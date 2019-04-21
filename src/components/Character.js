@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import ash from '../images/ash.png'
+import ash from '../assets/images/ash.png'
 
 export default class Character extends Component {
 

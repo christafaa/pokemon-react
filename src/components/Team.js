@@ -31,15 +31,3 @@ export default class Team extends Component {
     .then(spriteUrl => console.log(spriteUrl.sprites.front_default));
   }
 }
-
-
-
-
-// / Compose the url for the HTTP GET request
-//     let url = "https://pokeapi.co/api/v2/pokemon/" + 6;
-//     let pathToSprite = "sprites.front_default";
-//
-//     // Create a GET request with the Fetch API
-//     fetch(url)
-//       .then(response => response.json())
-//       .then(spriteUrl => console.log(spriteUrl[pathToSprite]));
